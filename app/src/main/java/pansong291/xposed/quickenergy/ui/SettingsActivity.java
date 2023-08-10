@@ -21,7 +21,7 @@ public class SettingsActivity extends Activity {
     private static final int SWIPE_MIN_DISTANCE = 120;
     private static final int SWIPE_MAX_OFF_PATH = 250;
     private static final int SWIPE_THRESHOLD_VELOCITY = 200;
-    private static final int MAX_TAB_INDEX = 3;
+    private static final int MAX_TAB_INDEX = 4;
 
     private TabHost tabHost;
     private int currentView = 0;
