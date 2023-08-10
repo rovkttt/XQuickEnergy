@@ -144,7 +144,7 @@ public class SettingsActivity extends Activity {
                 .setContent(R.id.tab_farm);
         tabHost.addTab(tabSpec);
 
-        tabSpec = tabHost.newTabSpec("other")
+        tabSpec = tabHost.newTabSpec("other2")
                 .setIndicator(getString(R.string.other_configuration))
                 .setContent(R.id.tab_other);
         tabHost.addTab(tabSpec);
