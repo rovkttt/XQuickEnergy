@@ -144,14 +144,14 @@ public class SettingsActivity extends Activity {
                 .setContent(R.id.tab_farm);
         tabHost.addTab(tabSpec);
 
-        tabSpec = tabHost.newTabSpec("other")
-                .setIndicator(getString(R.string.other_configuration))
-                .setContent(R.id.tab_other);
-        tabHost.addTab(tabSpec);
-
         tabSpec = tabHost.newTabSpec("new6")
                 .setIndicator(getString(R.string.test_configuration))
                 .setContent(R.id.tab_new6);
+        tabHost.addTab(tabSpec);
+        
+        tabSpec = tabHost.newTabSpec("other")
+                .setIndicator(getString(R.string.other_configuration))
+                .setContent(R.id.tab_other);
         tabHost.addTab(tabSpec);
         
         tabHost.setCurrentTab(0);
