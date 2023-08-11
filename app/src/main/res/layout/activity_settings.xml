@@ -788,34 +788,7 @@
                     android:minHeight="600dp"
                     android:textColor="@color/red"
                     android:text="@string/hello_user" />
-                    <Button
-                    android:gravity="center"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:textSize="19sp"
-						style="?android:attr/buttonBarButtonStyle"
-						android:text="@string/support_xqe_developer"
-						android:textAllCaps="false"
-						android:onClick="onClick"
-						android:minHeight="50dp"
-						android:gravity="start|center_vertical"
-						android:background="@drawable/button"
-						android:id="@+id/btn_donation_xqe_developer"
-						android:paddingStart="8dp" />
-					<Button
-                    android:gravity="center"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:textSize="19sp"
-						style="?android:attr/buttonBarButtonStyle"
-						android:text="@string/support_developer"
-						android:textAllCaps="false"
-						android:onClick="onClick"
-						android:minHeight="50dp"
-						android:gravity="start|center_vertical"
-						android:background="@drawable/button"
-						android:id="@+id/btn_donation_developer"
-						android:paddingStart="8dp" />
+
 				</LinearLayout>
 				<!--芭芭-->
 				<LinearLayout
@@ -832,34 +805,7 @@
                     android:textSize="22sp"
                     android:gravity="center"
                     android:text="@string/open_with_other_browser" />
-                <Button
-                    android:gravity="center"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:textSize="19sp"
-						style="?android:attr/buttonBarButtonStyle"
-						android:text="@string/support_xqe_developer"
-						android:textAllCaps="false"
-						android:onClick="onClick"
-						android:minHeight="50dp"
-						android:gravity="start|center_vertical"
-						android:background="@drawable/button"
-						android:id="@+id/btn_donation_xqe_developer"
-						android:paddingStart="8dp" />
-			    <Button
-                    android:gravity="center"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:textSize="19sp"
-						style="?android:attr/buttonBarButtonStyle"
-						android:text="@string/support_developer"
-						android:textAllCaps="false"
-						android:onClick="onClick"
-						android:minHeight="50dp"
-						android:gravity="start|center_vertical"
-						android:background="@drawable/button"
-						android:id="@+id/btn_donation_developer"
-						android:paddingStart="8dp" />
+                
 				</LinearLayout>
 				<!--其他-->
 				<LinearLayout
