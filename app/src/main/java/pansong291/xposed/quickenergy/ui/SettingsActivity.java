@@ -150,7 +150,7 @@ public class SettingsActivity extends Activity {
         tabHost.addTab(tabSpec);
         
         tabSpec = tabHost.newTabSpec("baba")
-                .setIndicator(getString(R.string.other_configuration))
+                .setIndicator(getString(R.string.thread_count))
                 .setContent(R.id.tab_baba1);
         tabHost.addTab(tabSpec);
         
