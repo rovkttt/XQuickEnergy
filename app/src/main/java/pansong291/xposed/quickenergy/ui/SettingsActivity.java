@@ -21,7 +21,7 @@ public class SettingsActivity extends Activity {
     private static final int SWIPE_MIN_DISTANCE = 120;
     private static final int SWIPE_MAX_OFF_PATH = 250;
     private static final int SWIPE_THRESHOLD_VELOCITY = 200;
-    private static final int MAX_TAB_INDEX = 4;
+    private static final int MAX_TAB_INDEX = 5;
 
     private TabHost tabHost;
     private int currentView = 0;
@@ -147,6 +147,11 @@ public class SettingsActivity extends Activity {
         tabSpec = tabHost.newTabSpec("new6")
                 .setIndicator(getString(R.string.test_configuration))
                 .setContent(R.id.tab_new6);
+        tabHost.addTab(tabSpec);
+        
+        tabSpec = tabHost.newTabSpec("baba")
+                .setIndicator(getString(R.string.other_configuration))
+                .setContent(R.id.tab_baba1);
         tabHost.addTab(tabSpec);
         
         tabSpec = tabHost.newTabSpec("other")
