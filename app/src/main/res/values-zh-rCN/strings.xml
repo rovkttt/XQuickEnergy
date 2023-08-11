@@ -10,7 +10,7 @@
     <string name="forest_configuration">森林</string>
     <string name="collect_energy">收集能量</string>
     <string name="check_interval_minutes">检测间隔(分钟)</string>
-    <string name="thread_count">线程数</string>
+    <string name="thread_count">芭芭</string>
     <string name="advance_time_milliseconds">提前时间(毫秒)</string>
     <string name="collect_interval_milliseconds">收取间隔(毫秒)</string>
     <string name="collect_timeout_seconds">收取超时(秒)</string>
@@ -79,7 +79,7 @@
     <string name="last">上一个</string>
     <string name="next">下一个</string>
     <string name="ok">确认</string>
-    <string name="open_with_other_browser">用浏览器打开</string>
+    <string name="open_with_other_browser">测试中2。。。</string>
     <string name="copy_the_url">复制链接</string>
     <string name="scroll_to_top">跳到顶部</string>
     <string name="scroll_to_bottom">跳到底部</string>
